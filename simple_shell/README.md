@@ -30,7 +30,8 @@ git.
 3) run:\
 A) interactive mode:\
 run the executable: ./executablename. example: ./hsh\
-type commands: command-name. example: cd pathname\n
+type commands: command-name. example: cd pathname\
+\
 B) non-interactive mode:
 - echo "command" | ./executablename. example: echo "/bin/ls" | ./hsh
 - cat filename | ./executablename. example: cat testfile | ./hsh
