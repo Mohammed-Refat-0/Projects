@@ -6,8 +6,8 @@ In this project, I implemented a custom-built shell program using c language.  a
 the program has two modes:\
 A) interactive mode: where the program reads and executes an input command, and waits for a new command until the user explicitly exits the program.\
 B) non-interactive mode: the program executes all commands piped to it through the command line and then immediately exits.\
-available commands:\
-1) Builtins:\
+available commands:
+1) Builtins:
    1) env: output all current environment variables.
    2) exit: exit the shell program.
    3) cd: change the current directory to a new one.
@@ -26,13 +26,13 @@ c compiler (gcc).\
 git.
 ### How to run
 clone this repository in your local environment.\
-compile the program: gcc -Wall -Werror -Wextra -pedantic -std=gnu11 *.c -o executablename, example:  gcc -Wall -Werror -Wextra -pedantic -std=gnu11 *.c -o hsh\
-To run:\
+compile the program: gcc -Wall -Werror -Wextra -pedantic -std=gnu11 *.c -o executablename. example: gcc -Wall -Werror -Wextra -pedantic -std=gnu11 *.c -o hsh\
+To run:
 A) interactive mode:\
-1) run the executable: ./executablename, example: ./hsh\
-2) type commands: command name, example: /bin/ls -a\
+1) run the executable: ./executablename. example: ./hsh\
+2) type commands: command-name. example: cd pathname\
 B) non-interactive mode:\
-1) echo "command" | ./executablename, example: echo "/bin/ls" | ./hsh\
-2) cat filename | ./executablename, example: cat testfile | ./hsh\
+1) echo "command" | ./executablename. example: echo "/bin/ls" | ./hsh\
+2) cat filename | ./executablename. example: cat testfile | ./hsh\
 ### Authors
 [Mohammed Refat](https://github.com/Mohammed-Refat-0)
