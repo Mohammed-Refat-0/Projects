@@ -6,7 +6,8 @@ In this project, I implemented a custom-built shell program using c language.  a
 the program has two modes:\
 A) interactive mode: where the program reads and executes an input command, and waits for a new command until the user explicitly exits the program.\
 B) non-interactive mode: the program executes all commands piped to it through the command line and then immediately exits.\
-available commands:
+
+Available commands:
 1) Builtins:
    1) env: output all current environment variables.
    2) exit: exit the shell program.
@@ -30,7 +31,8 @@ git.
 3) run:\
 A) interactive mode:\
 run the executable: ./executablename. example: ./hsh\
-type commands: command-name. example: cd pathname\\
+type commands: command-name. example: cd pathname\
+
 B) non-interactive mode:
  - echo "command" | ./executablename. example: echo "/bin/ls" | ./hsh
  - cat filename | ./executablename. example: cat testfile | ./hsh
