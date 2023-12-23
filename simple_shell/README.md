@@ -5,7 +5,7 @@ In this project, I implemented a custom-built shell program using c language.  a
 ### Features
 the program has two modes:\
 A) interactive mode: where the program reads and executes an input command, and waits for a new command until the user explicitly exits the program.\
-B) non-interactive mode: the program executes all commands piped to it through the command line and then immediately exits.\
+B) non-interactive mode: the program executes all commands piped to it through the command line and then immediately exits.
 
 Available commands:
 1) Builtins:
@@ -28,11 +28,11 @@ git.
 ### How to run
 1) clone this repository in your local environment.
 2) compile the program: gcc -Wall -Werror -Wextra -pedantic -std=gnu11 *.c -o executablename. example: gcc -Wall -Werror -Wextra -pedantic -std=gnu11 *.c -o hsh
-3) run:\
+3) run:
 
 A) interactive mode:\
 run the executable: ./executablename. example: ./hsh\
-type commands: command-name. example: cd pathname\
+type commands: command-name. example: cd pathname
 
 B) non-interactive mode:
 - echo "command" | ./executablename. example: echo "/bin/ls" | ./hsh
