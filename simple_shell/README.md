@@ -11,8 +11,8 @@ available commands:\
    1) env: output all current environment variables.\
    2) exit: exit the shell program.\
    3) cd: change the current directory to a new one.\
-2) External executables: all saved external executables commands can be run by inputting their path name. example: /bin/ls, /bin/pwd, etc...\
-### Files:\
+3) External executables: all saved external executables commands can be run by inputting their path name. example: /bin/ls, /bin/pwd, etc...
+### Files:
 [myshell.c](https://github.com/Mohammed-Refat-0/Projects/blob/master/simple_shell/myshell.c): main function of the program.\
 [main.h](https://github.com/Mohammed-Refat-0/Projects/blob/master/simple_shell/main.h): header file.\
 [shellfunctions.c](https://github.com/Mohammed-Refat-0/Projects/blob/master/simple_shell/shellfunctions.c): implemented functions used in the main function\
@@ -22,7 +22,7 @@ available commands:\
 ### Dependencies
 Unix environment.\
 c compiler (gcc).\
-git.\
+git.
 ### How to run
 clone this repository in your local environment.\
 compile the program: gcc -Wall -Werror -Wextra -pedantic -std=gnu11 *.c -o executablename, example:  gcc -Wall -Werror -Wextra -pedantic -std=gnu11 *.c -o hsh\
