@@ -25,14 +25,14 @@ Unix environment.\
 c compiler (gcc).\
 git.
 ### How to run
-1) clone this repository in your local environment.\
-2) compile the program: gcc -Wall -Werror -Wextra -pedantic -std=gnu11 *.c -o executablename. example: gcc -Wall -Werror -Wextra -pedantic -std=gnu11 *.c -o hsh\
-3) run:\
+1) clone this repository in your local environment.
+2) compile the program: gcc -Wall -Werror -Wextra -pedantic -std=gnu11 *.c -o executablename. example: gcc -Wall -Werror -Wextra -pedantic -std=gnu11 *.c -o hsh
+3) run:
 A) interactive mode:\
-1) run the executable: ./executablename. example: ./hsh\
-2) type commands: command-name. example: cd pathname\
-B) non-interactive mode:\
-1) echo "command" | ./executablename. example: echo "/bin/ls" | ./hsh\
-2) cat filename | ./executablename. example: cat testfile | ./hsh\
+- run the executable: ./executablename. example: ./hsh
+ type commands: command-name. example: cd pathname
+B) non-interactive mode:
+- echo "command" | ./executablename. example: echo "/bin/ls" | ./hsh
+- cat filename | ./executablename. example: cat testfile | ./hsh
 ### Authors
 [Mohammed Refat](https://github.com/Mohammed-Refat-0)
