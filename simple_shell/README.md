@@ -29,8 +29,8 @@ git.
 2) compile the program: gcc -Wall -Werror -Wextra -pedantic -std=gnu11 *.c -o executablename. example: gcc -Wall -Werror -Wextra -pedantic -std=gnu11 *.c -o hsh
 3) run:\
 A) interactive mode:\
- 1) run the executable: ./executablename. example: ./hsh
- 2) type commands: command-name. example: cd pathname\
+- run the executable: ./executablename. example: ./hsh\
+type commands: command-name. example: cd pathname\
 B) non-interactive mode:
 - echo "command" | ./executablename. example: echo "/bin/ls" | ./hsh
 - cat filename | ./executablename. example: cat testfile | ./hsh
