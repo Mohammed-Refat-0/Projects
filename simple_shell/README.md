@@ -28,7 +28,7 @@ git.
 1) clone this repository in your local environment.
 2) compile the program: gcc -Wall -Werror -Wextra -pedantic -std=gnu11 *.c -o executablename. example: gcc -Wall -Werror -Wextra -pedantic -std=gnu11 *.c -o hsh
 3) run:\
-A) interactive mode:
+A) interactive mode:\
 run the executable: ./executablename. example: ./hsh\
 type commands: command-name. example: cd pathname\
 B) non-interactive mode:
