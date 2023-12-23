@@ -25,9 +25,9 @@ Unix environment.\
 c compiler (gcc).\
 git.
 ### How to run
-clone this repository in your local environment.\
-compile the program: gcc -Wall -Werror -Wextra -pedantic -std=gnu11 *.c -o executablename. example: gcc -Wall -Werror -Wextra -pedantic -std=gnu11 *.c -o hsh\
-To run:
+1) clone this repository in your local environment.\
+2) compile the program: gcc -Wall -Werror -Wextra -pedantic -std=gnu11 *.c -o executablename. example: gcc -Wall -Werror -Wextra -pedantic -std=gnu11 *.c -o hsh\
+3) run:\
 A) interactive mode:\
 1) run the executable: ./executablename. example: ./hsh\
 2) type commands: command-name. example: cd pathname\
