@@ -14,7 +14,7 @@ Available commands:
    3) cd: change the current directory to a new one.
 2) External executables:\
  All saved external executable commands can be run by inputting their path name. example: /bin/ls, /bin/pwd, etc...
-### Files:
+### Files
 [myshell.c](https://github.com/Mohammed-Refat-0/Projects/blob/master/simple_shell/myshell.c): main function of the program.\
 [main.h](https://github.com/Mohammed-Refat-0/Projects/blob/master/simple_shell/main.h): header file.\
 [shellfunctions.c](https://github.com/Mohammed-Refat-0/Projects/blob/master/simple_shell/shellfunctions.c): implemented functions used in the main function\
@@ -30,12 +30,12 @@ git.
 2) compile the program: gcc -Wall -Werror -Wextra -pedantic -std=gnu11 *.c -o executablename. example: gcc -Wall -Werror -Wextra -pedantic -std=gnu11 *.c -o hsh
 3) run:\
 
-A) interactive mode:
+A) interactive mode:\
 run the executable: ./executablename. example: ./hsh\
 type commands: command-name. example: cd pathname\
 
 B) non-interactive mode:
- - echo "command" | ./executablename. example: echo "/bin/ls" | ./hsh
- - cat filename | ./executablename. example: cat testfile | ./hsh
+- echo "command" | ./executablename. example: echo "/bin/ls" | ./hsh
+- cat filename | ./executablename. example: cat testfile | ./hsh
 ### Authors
 [Mohammed Refat](https://github.com/Mohammed-Refat-0)
